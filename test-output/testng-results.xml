@@ -1,21 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-07T12:38:24 SAST" name="Default suite" finished-at="2021-10-07T12:38:49 SAST" duration-ms="24973">
+  <suite started-at="2021-10-07T21:17:20 SAST" name="Functional Suite" finished-at="2021-10-07T21:19:25 SAST" duration-ms="124748">
     <groups>
     </groups>
-    <test started-at="2021-10-07T12:38:24 SAST" name="Default test" finished-at="2021-10-07T12:38:49 SAST" duration-ms="24973">
-      <class name="project.Project_Demo.Demo">
-        <test-method signature="openbrowser()[pri:1, instance:project.Project_Demo.Demo@6193932a]" started-at="2021-10-07T12:38:24 SAST" name="openbrowser" finished-at="2021-10-07T12:38:30 SAST" duration-ms="5954" status="PASS">
+    <test started-at="2021-10-07T21:17:20 SAST" name="Test" finished-at="2021-10-07T21:19:25 SAST" duration-ms="124748">
+      <class name="testingtestcases.ValidatingMandatoryFields">
+        <test-method signature="Mandatoryfields()[pri:0, instance:testingtestcases.ValidatingMandatoryFields@794cb805]" started-at="2021-10-07T21:18:16 SAST" name="Mandatoryfields" finished-at="2021-10-07T21:18:27 SAST" duration-ms="10510" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openbrowser -->
-        <test-method signature="Login()[pri:2, instance:project.Project_Demo.Demo@6193932a]" started-at="2021-10-07T12:38:30 SAST" name="Login" finished-at="2021-10-07T12:38:49 SAST" duration-ms="18970" status="PASS">
+        </test-method> <!-- Mandatoryfields -->
+      </class> <!-- testingtestcases.ValidatingMandatoryFields -->
+      <class name="testingtestcases.ContactUs">
+        <test-method signature="SubmitContactUs()[pri:0, instance:testingtestcases.ContactUs@7c469c48]" started-at="2021-10-07T21:17:20 SAST" name="SubmitContactUs" finished-at="2021-10-07T21:17:47 SAST" duration-ms="27015" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-      </class> <!-- project.Project_Demo.Demo -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- SubmitContactUs -->
+      </class> <!-- testingtestcases.ContactUs -->
+      <class name="testingtestcases.EmailValidation">
+        <test-method signature="EmailValidate()[pri:0, instance:testingtestcases.EmailValidation@1f3f4916]" started-at="2021-10-07T21:17:47 SAST" name="EmailValidate" finished-at="2021-10-07T21:18:16 SAST" duration-ms="28993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmailValidate -->
+      </class> <!-- testingtestcases.EmailValidation -->
+      <class name="testingtestcases.PhoneNumberValidation">
+        <test-method signature="InvalidphoneNumber()[pri:0, instance:testingtestcases.PhoneNumberValidation@4b5a5ed1]" started-at="2021-10-07T21:18:27 SAST" name="InvalidphoneNumber" finished-at="2021-10-07T21:18:58 SAST" duration-ms="30862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidphoneNumber -->
+      </class> <!-- testingtestcases.PhoneNumberValidation -->
+      <class name="testingtestcases.SubmitUncheckedAgreement">
+        <test-method signature="unCheckedAgreement()[pri:0, instance:testingtestcases.SubmitUncheckedAgreement@59d016c9]" started-at="2021-10-07T21:18:58 SAST" name="unCheckedAgreement" finished-at="2021-10-07T21:19:25 SAST" duration-ms="27315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unCheckedAgreement -->
+      </class> <!-- testingtestcases.SubmitUncheckedAgreement -->
+    </test> <!-- Test -->
+  </suite> <!-- Functional Suite -->
 </testng-results>
